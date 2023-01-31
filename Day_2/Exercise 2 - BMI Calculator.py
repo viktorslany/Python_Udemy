@@ -5,4 +5,4 @@ weight = input("enter your weight in kg: ")
 
 #Write your code below this line 👇
 
-print(float(weight) / (float(height)*float(height)))
+print(int(float(weight) / (float(height)*float(height))))

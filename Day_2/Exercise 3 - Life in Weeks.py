@@ -3,6 +3,5 @@ age = input("What is your current age? ")
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
-int_age = int(age)
-time_left = 90 - int_age
-print(f'You have {time_left*365}, days {time_left*52} weeks, and {time_left*12} months left.')
+time = 90 - int(age)
+print(f'You have {time*365}, days {time*52} weeks, and {time*12} months left.')

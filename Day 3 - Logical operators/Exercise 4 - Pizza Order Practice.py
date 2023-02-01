@@ -17,10 +17,8 @@ elif size == 'L':
 if add_pepperoni == 'Y':
     if size == 'S':
         bill += 2
-    elif size == 'M':
+    else:
         bill += 3
-    elif size == 'L':
-        bill =+ 3
 
 if extra_cheese == 'Y':
     bill += 1

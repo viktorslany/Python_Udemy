@@ -15,4 +15,6 @@ tip = int(input('What percentage tip would you like to give? 10, 12 or 15?\n'))
 
 result = (bill/split) * ((tip/100)+1)
 
-print(f'${round(result, 2)}')
+final_amount = '{:.2f}'.format(result)
+
+print(f'${final_amount}')

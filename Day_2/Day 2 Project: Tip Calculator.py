@@ -8,14 +8,11 @@
 #Write your code below this line 👇
 
 print('Welcome to the tip calculator.')
-bill = input('What was the total bill?\n')
-split = input('How many people to split the bill?\n')
-tip = input('What percentage tip would you like to give? 10, 12 or 15?\n')
 
-each = float(bill) / float(split)
+bill = float(input('What was the total bill?\n$'))
+split = int(input('How many people to split the bill?\n'))
+tip = int(input('What percentage tip would you like to give? 10, 12 or 15?\n'))
 
-tip_result = (float(tip)/100)+1
+result = (bill/split) * ((tip/100)+1)
 
-result = each * tip_result
-
-print(round(result, 2))
+print(f'${round(result, 2)}')
